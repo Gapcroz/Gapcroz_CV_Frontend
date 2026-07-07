@@ -2,12 +2,12 @@ function Footer() {
 
   return (
     <>
-      <section>
-        <div>
-          <h1 className='text-blue-700 text-3xl'>HOME</h1>
-          <h1 className='text-blue-700 text-3xl'>PROJECTS</h1>
-          <h1 className='text-blue-700 text-3xl'>SKILLS</h1>
-          <h1 className='text-blue-700 text-3xl'>CONTACT</h1>
+      <section className="fixed bottom-0 left-0 w-full">
+        <div className="flex items-center gap-4 bg-gray-800 font-bold text-white text-xl">
+          <h1 className=''>HOME</h1>
+          <h1 className=''>PROJECTS</h1>
+          <h1 className=''>SKILLS</h1>
+          <h1 className=''>CONTACT</h1>
         </div>
       </section>
     </>
